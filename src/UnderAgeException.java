@@ -1,4 +1,4 @@
-public class UnderAgeException extends Exception {
+public class UnderAgeException extends RuntimeException {
     public UnderAgeException(String message) {
         super(message);
     }
