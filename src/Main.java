@@ -4,7 +4,7 @@ public class Main {
         int age=12;
        try {
            if(age<18){
-               throw new RuntimeException("You are under age");
+               throw new UnderAgeException("You are under age");
            }
        }catch (Exception e){
            System.out.println(e.getMessage());
